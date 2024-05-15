@@ -18,13 +18,4 @@ The objective of this security audits portfolio is to document and showcase theo
 - Nmap: Nmap (Network Mapper) is a powerful open-source tool for network discovery and security auditing. It scans networks to identify active hosts, services, and open ports, providing valuable insights into network topology and potential security risks.
 - Metasploit: Metasploit is a penetration testing framework that helps auditors simulate real-world cyber attacks to identify and exploit vulnerabilities in systems and networks. It provides a wide range of tools and exploits for testing security defenses and assessing overall security posture.
 
-## Steps
-
-### Screenshots coming soon...
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
+## Detailed Steps can be found in each file.
