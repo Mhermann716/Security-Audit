@@ -12,11 +12,11 @@ The objective of this security audits portfolio is to document and showcase theo
 - Communication and Reporting: Effectively communicating audit findings, risks, and recommendations to technical and non-technical stakeholders through clear and concise reports, presentations, and documentation.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Nessus: Nessus is a vulnerability assessment tool that scans networks, systems, and applications for known vulnerabilities, misconfigurations, and potential security issues. It provides detailed reports on discovered vulnerabilities, prioritizing them based on severity.
+- Wireshark: Wireshark is a network protocol analyzer that captures and displays network packets in real-time. It helps auditors analyze network traffic, detect anomalies, identify security threats, and troubleshoot network issues.
+- Nmap: Nmap (Network Mapper) is a powerful open-source tool for network discovery and security auditing. It scans networks to identify active hosts, services, and open ports, providing valuable insights into network topology and potential security risks.
+- Metasploit: Metasploit is a penetration testing framework that helps auditors simulate real-world cyber attacks to identify and exploit vulnerabilities in systems and networks. It provides a wide range of tools and exploits for testing security defenses and assessing overall security posture.
 
 ## Steps
 
