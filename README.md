@@ -15,11 +15,11 @@ Select “yes” or “no” to answer the question: Does Botium Toys currently 
 | **Backups** | |X | The IT department needs to have backups of critical data, in the case of a breach, to ensure business continuity. |
 | **Antivirus Software** |X | | Antivirus software is installed and monitored regularly by the IT department. |
 | **Manual Monitoring, Maintenance, and Intervention for Legacy Systems** | |X | The list of assets notes the use of legacy systems. The risk assessment indicates that these systems are monitored and maintained, but there is not a regular schedule in place for this task and procedures/policies related to intervention are unclear, which could place these systems at risk of a breach. |
-| **Encryption** | | | Encryption is not currently used; implementing it would provide greater confidentiality of sensitive information. |
-| **Password Management System** | | | There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues. |
-| **Locks (Offices, Storefront, Warehouse)** | | | The store’s physical location, which includes the company’s main offices, store front, and warehouse of products, has sufficient locks. |
-| **Closed-Circuit Television (CCTV) Surveillance** | | | CCTV is installed/functioning at the store’s physical location. |
-| **Fire Detection/Prevention (Fire Alarm, Sprinkler System, etc.)** | | | Botium Toys’ physical location has a functioning fire detection and prevention system. |
+| **Encryption** | |X | Encryption is not currently used; implementing it would provide greater confidentiality of sensitive information. |
+| **Password Management System** | |X | There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues. |
+| **Locks (Offices, Storefront, Warehouse)** |X | | The store’s physical location, which includes the company’s main offices, store front, and warehouse of products, has sufficient locks. |
+| **Closed-Circuit Television (CCTV) Surveillance** |X | | CCTV is installed/functioning at the store’s physical location. |
+| **Fire Detection/Prevention (Fire Alarm, Sprinkler System, etc.)** |X | | Botium Toys’ physical location has a functioning fire detection and prevention system. |
 
 ## Compliance Checklist
 
