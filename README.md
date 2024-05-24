@@ -2,9 +2,6 @@
 
 ## Controls Assessment Checklist
 
-Select “yes” or “no” to answer the question: Does Botium Toys currently have this control in place?
-
-| Control | Yes | No | Explanation |
 | ------- | --- | -- | ----------- |
 | **Least Privilege** | | X| Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach. |
 | **Disaster Recovery Plans** | |X | There are no disaster recovery plans in place. These need to be implemented to ensure business continuity. |
@@ -22,8 +19,6 @@ Select “yes” or “no” to answer the question: Does Botium Toys currently 
 | **Fire Detection/Prevention (Fire Alarm, Sprinkler System, etc.)** |X | | Botium Toys’ physical location has a functioning fire detection and prevention system. |
 
 ## Compliance Checklist
-
-Select “yes” or “no” to answer the question: Does Botium Toys currently adhere to this compliance best practice?
 
 ### Payment Card Industry Data Security Standard (PCI DSS)
 
