@@ -6,7 +6,7 @@ Select “yes” or “no” to answer the question: Does Botium Toys currently 
 
 | Control | Yes | No | Explanation |
 | ------- | --- | -- | ----------- |
-| **Least Privilege** | |x| Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach. |
+| **Least Privilege** | | X| Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach. |
 | **Disaster Recovery Plans** | | | There are no disaster recovery plans in place. These need to be implemented to ensure business continuity. |
 | **Password Policies** | | | Employee password requirements are minimal, which could allow a threat actor to more easily access secure data/other assets via employee work equipment/the internal network. |
 | **Separation of Duties** | | | Needs to be implemented to reduce the possibility of fraud/access to critical data, since the company CEO currently runs day-to-day operations and manages the payroll. |
