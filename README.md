@@ -1,21 +1,61 @@
-# Security Audits
+# Botium Toys Controls and Compliance Checklist
 
-## Objective
+## Controls Assessment Checklist
 
-The objective of this security audits portfolio is to document and showcase theoretical audits, demonstrating my understanding of auditing principles, methodologies, and practices to highlight my analytical skills and preparedness for real-world security assessments.
+Select “yes” or “no” to answer the question: Does Botium Toys currently have this control in place?
 
-### Skills Learned
-- Risk Assessment and Management: Analyzing systems and networks to identify potential vulnerabilities and threats, and assessing their potential impact on an organization's operations and data integrity.
-- Compliance Knowledge: Understanding regulatory requirements and industry standards such as GDPR, HIPAA, or PCI DSS, and ensuring that systems and processes adhere to these standards..
-- Policy Analysis and Development: Evaluating existing security policies and procedures, identifying gaps or weaknesses, and developing recommendations for improvement or new policy implementation..
-- Security Framework Familiarity: Becoming proficient in security frameworks like NIST Cybersecurity Framework, ISO/IEC 27001, or CIS Controls, and applying their principles to assess and enhance cybersecurity posture.
-- Communication and Reporting: Effectively communicating audit findings, risks, and recommendations to technical and non-technical stakeholders through clear and concise reports, presentations, and documentation.
+| Control | Yes | No | Explanation |
+| ------- | --- | -- | ----------- |
+| **Least Privilege** | | | Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach. |
+| **Disaster Recovery Plans** | | | There are no disaster recovery plans in place. These need to be implemented to ensure business continuity. |
+| **Password Policies** | | | Employee password requirements are minimal, which could allow a threat actor to more easily access secure data/other assets via employee work equipment/the internal network. |
+| **Separation of Duties** | | | Needs to be implemented to reduce the possibility of fraud/access to critical data, since the company CEO currently runs day-to-day operations and manages the payroll. |
+| **Firewall** | | | The existing firewall blocks traffic based on an appropriately defined set of security rules. |
+| **Intrusion Detection System (IDS)** | | | The IT department needs an IDS in place to help identify possible intrusions by threat actors. |
+| **Backups** | | | The IT department needs to have backups of critical data, in the case of a breach, to ensure business continuity. |
+| **Antivirus Software** | | | Antivirus software is installed and monitored regularly by the IT department. |
+| **Manual Monitoring, Maintenance, and Intervention for Legacy Systems** | | | The list of assets notes the use of legacy systems. The risk assessment indicates that these systems are monitored and maintained, but there is not a regular schedule in place for this task and procedures/policies related to intervention are unclear, which could place these systems at risk of a breach. |
+| **Encryption** | | | Encryption is not currently used; implementing it would provide greater confidentiality of sensitive information. |
+| **Password Management System** | | | There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues. |
+| **Locks (Offices, Storefront, Warehouse)** | | | The store’s physical location, which includes the company’s main offices, store front, and warehouse of products, has sufficient locks. |
+| **Closed-Circuit Television (CCTV) Surveillance** | | | CCTV is installed/functioning at the store’s physical location. |
+| **Fire Detection/Prevention (Fire Alarm, Sprinkler System, etc.)** | | | Botium Toys’ physical location has a functioning fire detection and prevention system. |
 
-### Tools Used
+## Compliance Checklist
 
-- Nessus: Nessus is a vulnerability assessment tool that scans networks, systems, and applications for known vulnerabilities, misconfigurations, and potential security issues. It provides detailed reports on discovered vulnerabilities, prioritizing them based on severity.
-- Wireshark: Wireshark is a network protocol analyzer that captures and displays network packets in real-time. It helps auditors analyze network traffic, detect anomalies, identify security threats, and troubleshoot network issues.
-- Nmap: Nmap (Network Mapper) is a powerful open-source tool for network discovery and security auditing. It scans networks to identify active hosts, services, and open ports, providing valuable insights into network topology and potential security risks.
-- Metasploit: Metasploit is a penetration testing framework that helps auditors simulate real-world cyber attacks to identify and exploit vulnerabilities in systems and networks. It provides a wide range of tools and exploits for testing security defenses and assessing overall security posture.
+Select “yes” or “no” to answer the question: Does Botium Toys currently adhere to this compliance best practice?
 
-## Detailed Steps can be found in each file.
+### Payment Card Industry Data Security Standard (PCI DSS)
+
+| Best Practice | Yes | No | Explanation |
+| ------------- | --- | -- | ----------- |
+| **Only authorized users have access to customers’ credit card information.** | | | Currently, all employees have access to the company’s internal data. |
+| **Credit card information is accepted, processed, transmitted, and stored internally, in a secure environment.** | | | Credit card information is not encrypted and all employees currently have access to internal data, including customers’ credit card information. |
+| **Implement data encryption procedures to better secure credit card transaction touchpoints and data.** | | | The company does not currently use encryption to better ensure the confidentiality of customers’ financial information. |
+| **Adopt secure password management policies.** | | | Password policies are nominal and no password management system is currently in place. |
+
+### General Data Protection Regulation (GDPR)
+
+| Best Practice | Yes | No | Explanation |
+| ------------- | --- | -- | ----------- |
+| **E.U. customers’ data is kept private/secured.** | | | The company does not currently use encryption to better ensure the confidentiality of customers’ financial information. |
+| **There is a plan in place to notify E.U. customers within 72 hours if their data is compromised/there is a breach.** | | | There is a plan to notify E.U. customers within 72 hours of a data breach. |
+| **Ensure data is properly classified and inventoried.** | | | Current assets have been inventoried/listed, but not classified. |
+| **Enforce privacy policies, procedures, and processes to properly document and maintain data.** | | | Privacy policies, procedures, and processes have been developed and enforced among IT team members and other employees, as needed. |
+
+### System and Organizations Controls (SOC Type 1, SOC Type 2)
+
+| Best Practice | Yes | No | Explanation |
+| ------------- | --- | -- | ----------- |
+| **User access policies are established.** | | | Controls of Least Privilege and separation of duties are not currently in place; all employees have access to internally stored data. |
+| **Sensitive data (PII/SPII) is confidential/private.** | | | Encryption is not currently used to better ensure the confidentiality of PII/SPII. |
+| **Data integrity ensures the data is consistent, complete, accurate, and has been validated.** | | | Data integrity is in place. |
+| **Data is available to individuals authorized to access it.** | | | While data is available to all employees, authorization needs to be limited to only the individuals who need access to it to do their jobs. |
+
+## Recommendations
+
+In this section, provide recommendations related to controls and/or compliance needs that your IT manager could communicate to stakeholders to reduce risks to assets and improve Botium Toys’ security posture.
+
+Multiple controls need to be implemented to improve Botium Toys’ security posture and better ensure the confidentiality of sensitive information, including: Least Privilege, disaster recovery plans, password policies, separation of duties, an IDS, ongoing legacy system management, encryption, and a password management system.
+
+To address gaps in compliance, Botium Toys needs to implement controls such as Least Privilege, separation of duties, and encryption. The company also needs to properly classify assets to identify additional controls that may need to be implemented to improve their security posture and better protect sensitive information.
