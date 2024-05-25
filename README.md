@@ -1,7 +1,7 @@
 # Botium Toys Controls and Compliance Checklist
 
 ## Controls Assessment Checklist
-
+| Control | Yes | No | Explanation |
 | ------- | --- | -- | ----------- |
 | **Least Privilege** | | X| Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach. |
 | **Disaster Recovery Plans** | |X | There are no disaster recovery plans in place. These need to be implemented to ensure business continuity. |
